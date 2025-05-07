@@ -122,7 +122,7 @@ All are computed over a 50-row curated dataset.
 * Hindi audio output (MP3)
 
 **Output**:
-([!Vaani News](https://youtu.be/hoRk7PvTYic))
+(![Vaani News](https://youtu.be/hoRk7PvTYic))
 
 
 
