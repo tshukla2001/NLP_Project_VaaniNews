@@ -127,7 +127,8 @@ All are computed over a 50-row curated dataset.
 * Hindi audio output (MP3)
 
 **Output**:
-https://github.com/user-attachments/assets/3804b347-fcc4-48b3-9df0-402564d7fc29
+[![VaaniNews Output]]
+(https://github.com/user-attachments/assets/3804b347-fcc4-48b3-9df0-402564d7fc29)
 
 
 
