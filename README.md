@@ -9,7 +9,6 @@ Users input a company name and receive:
 - Hindi speech output
 - Evaluation metrics
 
----
 
 ## ⚙️ Installation & Setup
 
@@ -49,7 +48,6 @@ GOOGLE_APPLICATION_CREDENTIALS=./path-to-your-google-credentials.json
 EVENT_REGISTRY_API_KEY=your_event_registry_key
 ```
 
----
 
 ## 🤖 Model Components
 
@@ -68,7 +66,6 @@ EVENT_REGISTRY_API_KEY=your_event_registry_key
 * Translates final summary into Hindi using Google Translate API.
 * Uses **Google Cloud Text-to-Speech** to synthesize Hindi speech (MP3 format).
 
----
 
 ## 🔌 API Development
 
@@ -96,7 +93,6 @@ GET /translate?text=Your Text&target_language=hi
 GET /generate_tts?text=Your Hindi Text
 ```
 
----
 
 ## 🧪 Evaluation Metrics
 
@@ -112,7 +108,6 @@ GET /generate_tts?text=Your Hindi Text
 
 All are computed over a 50-row curated dataset.
 
----
 
 ## 📦 Example Output - Zomato
 
@@ -127,12 +122,9 @@ All are computed over a 50-row curated dataset.
 * Hindi audio output (MP3)
 
 **Output**:
-[![VaaniNews Output]]
-(https://github.com/user-attachments/assets/3804b347-fcc4-48b3-9df0-402564d7fc29)
+((https://youtu.be/hoRk7PvTYic))
 
 
-
----
 
 ## 🧪 Testing with Postman
 
@@ -148,7 +140,6 @@ uvicorn api:app --reload
 http://127.0.0.1:8000/fetch_news?company=Zomato
 ```
 
----
 
 ## ⚠️ Assumptions & Limitations
 
@@ -157,7 +148,6 @@ http://127.0.0.1:8000/fetch_news?company=Zomato
 * Google Cloud APIs require active credentials.
 * Hindi is the only supported language for audio output currently.
 
----
 
 ## 🚀 Running the Application
 
@@ -173,7 +163,6 @@ uvicorn api:app --reload
 streamlit run app.py
 ```
 
----
 
 ## 📚 Citation
 
@@ -188,7 +177,6 @@ If you use or extend this project, cite as:
 }
 ```
 
----
 
 ## 💡 Future Enhancements
 
