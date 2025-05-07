@@ -1,4 +1,4 @@
-### VaaniNews - News Summarization, Sentiment Analysis & Hindi Text-to-Speech Application
+# VaaniNews - News Summarization, Sentiment Analysis & Hindi Text-to-Speech Application
 
 ## 🧠 Overview
 **VaaniNews** is a full-stack NLP application that summarizes news articles about a company, analyzes their sentiment, and generates a Hindi audio output of the summary. It integrates **Gemini-Flash** for summarization, **LLaMA-2 via LangChain-Groq** for sentiment analysis, and **Google Cloud Text-to-Speech** for multilingual speech generation.
@@ -122,8 +122,9 @@ All are computed over a 50-row curated dataset.
 * Hindi audio output (MP3)
 
 **Output**:
-[![Vaani News](<img width="950" alt="thumbnail" src="https://github.com/user-attachments/assets/a699eaa0-8b8e-4068-afc9-ea41340899c3" />
-)](https://youtu.be/hoRk7PvTYic)
+https://github.com/user-attachments/assets/67cd815e-9ad2-4ea5-800a-eefc4e14c50f
+
+
 
 
 
